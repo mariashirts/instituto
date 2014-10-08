@@ -3,6 +3,16 @@ title: Instituto Mutirão
 description: Uma rede de pessoas programando a democracia digital
 analytics_id: UA-XXXXX-X
 
+collections:
+- objetivos
+- cases
+- clientes
+- depoimentos
+- depoimentos
+- oss
+- midia
+- equipe
+
 # Build settings
 markdown: kramdown
 

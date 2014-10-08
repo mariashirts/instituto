@@ -1,0 +1,11 @@
+# Site settings
+title: Instituto Mutirão
+description: Uma rede de pessoas programando a democracia digital
+analytics_id: UA-XXXXX-X
+
+# Build settings
+markdown: kramdown
+
+source: src
+destination: dist
+gems: [jekyll-sass]

@@ -1,42 +1,8 @@
 <section id="software-livre">
   <h2>Software livre e código aberto</h2>
-  <div class="intro-text">
-    <h3>Topic Label</h3>
-    <h2>Intro Text Heading</h2>
-    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta rerum libero iste saepe.</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur consectetur adipisicing elit. Perferendis para mitis eun non ullam atque debitis, illo adipisicing elit. Perferendis para mitis eun non ullam atque debitis, illo. Amet, consectetur adipisicing. <a href="">Read more <span>&#187;</span></a></p>
-  </div>
-</section>
-<section id="na-midia">
-  <h2>Na mídia</h2>
-  <ul class="bullets">
-    <li class="bullet three-col-bullet">
-      <div class="bullet-icon bullet-icon-1">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png
-  " alt="">
-      </div>
-      <div class="bullet-content">
-        <h2>This Bullet Title</h2>
-        <p>Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
-        </div>
-    </li>
-    <li class="bullet three-col-bullet">
-      <div class="bullet-icon bullet-icon-2">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
-      </div>
-      <div class="bullet-content">
-        <h2>Another Bullet Title</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum.</p>
-      </div>
-    </li>
-    <li class="bullet three-col-bullet">
-      <div class="bullet-icon bullet-icon-3">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
-      </div>
-      <div class="bullet-content">
-        <h2>Last Bullet Title</h2>
-        <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
-      </div>
-    </li>
-  </ul>
+  {% for oss in site.oss %}
+    <div class="intro-text">
+      {{ oss.content }}
+    </div>
+  {% endfor %}
 </section>

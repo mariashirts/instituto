@@ -4,6 +4,7 @@ description: Uma rede de pessoas programando a democracia digital
 analytics_id: UA-XXXXX-X
 
 collections:
+- apresentacao
 - objetivos
 - cases
 - clientes

@@ -1,6 +1,8 @@
 ---
 ---
 
-#### Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta rerum libero iste saepe.
+#### Software livre e código aberto
 
-Lorem ipsum dolor sit amet, consectetur consectetur adipisicing elit. Perferendis para mitis eun non ullam atque debitis, illo adipisicing elit. Perferendis para mitis eun non ullam atque debitis, illo. Amet, consectetur adipisicing.
+Acreditamos que tornar o software livre e abrir seu código é mais do que uma escolha técnica, por isso, todas as novas aplicações estão no Github:
+
+[Mutirão no Github](https://github.com/nucleo-digital)
